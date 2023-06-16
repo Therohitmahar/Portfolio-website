@@ -1,0 +1,138 @@
+.about {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+  background: linear-gradient(to right bottom, rgba(71, 68, 68, 0.7), rgba(58, 52, 52, 0.3));
+}
+.about h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  background: linear-gradient(to right bottom, rgba(71, 68, 68, 0.7), rgba(58, 52, 52, 0.3));
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.about div {
+  width: 70%;
+}
+.about div ul {
+  display: grid;
+  list-style: circle;
+  grid-template-columns: repeat(2, 1.5fr);
+  padding: 10px;
+  padding-left: 40px;
+}
+
+.projectcard {
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  margin: auto;
+  width: 60vw;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  background: linear-gradient(to right bottom, rgba(80, 80, 80, 0.616), rgba(163, 161, 161, 0.329));
+  box-shadow: inset 5px 5px 5px rgba(99, 92, 92, 0.3), inset -5px -5px 5px rgba(99, 92, 92, 0.3), 0px 5px 5px rgba(99, 92, 92, 0.3);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.projectcard:hover {
+  box-shadow: inset 5px 5px 5px rgba(99, 92, 92, 0.3), inset -5px -5px 5px rgba(99, 92, 92, 0.3), 0px 5px 5px rgba(99, 92, 92, 0.3);
+}
+.projectcard .left {
+  width: 45%;
+  margin: 10px;
+  display: flex;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.projectcard .left img {
+  width: 100%;
+  align-self: center;
+}
+.projectcard .right {
+  display: flex;
+  flex-direction: column;
+}
+.projectcard .right section {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.projectcard .right section h3 {
+  margin-right: auto;
+}
+.projectcard .right section svg {
+  font-size: 24px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.projectcard .right section svg:hover {
+  scale: 1.1;
+  background-color: rgb(8, 8, 8);
+  box-shadow: inset 5px 5px 5px rgba(99, 92, 92, 0.3), inset -5px -5px 5px rgba(99, 92, 92, 0.3), 0px 5px 5px rgba(99, 92, 92, 0.3);
+}
+.projectcard .right ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.projectcard .right ul li {
+  opacity: 0.7;
+  margin: 20px 5px;
+}
+
+.Project-title {
+  transition: 0.3s;
+}
+
+.projectcard:hover .Project-title {
+  color: aqua;
+}
+
+.projectcard:hover {
+  transform: translateY(-4px);
+}
+
+.contact {
+  display: flex;
+  padding: 40px 20px;
+  flex-direction: column;
+  height: 95vh;
+  align-items: center;
+  text-align: center;
+}
+.contact h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 45px;
+  font-weight: bolder;
+}
+.contact p {
+  padding-top: 20px;
+  width: 50%;
+}
+.contact button {
+  padding: 20px;
+  background: linear-gradient(to right bottom, rgba(5, 5, 5, 0.719), rgba(0, 0, 0, 0.445));
+  border: none;
+  border-radius: 10px;
+  margin-top: 70px;
+  box-shadow: inset 3px 3px 5px grey;
+  transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.contact button:hover {
+  transform: translateY(-3px);
+  box-shadow: inset 3px 3px 5px grey, 0 3px;
+}
+.contact a {
+  margin-top: auto;
+  text-decoration: none;
+}
+.contact a span {
+  font-size: 12px;
+}
+.contact a span:hover {
+  color: rgb(218, 218, 218);
+}/*# sourceMappingURL=style.css.map */
