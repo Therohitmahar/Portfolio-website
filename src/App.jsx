@@ -1,17 +1,18 @@
 import "./App.css";
-import MouseoverEffect from "./components/MouseoverEffect";
+import "./style.css";
 import Navbar from "./components/Navbar";
-import RandomLetterComponent from "./components/RandomLetterComponent";
 
 import Work from "./components/Work";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Cursor from "./components/Cursor";
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
+      {/* <Cursor /> */}
       <About />
       <Work />
       <Contact />

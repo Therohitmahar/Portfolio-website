@@ -14,7 +14,7 @@ function Hero() {
           <Lottie animationData={animationData} />
         </div>
         <div className="hero-section">
-          <h1 style={{ marginBottom: "50px" }}>
+          <h1>
             Hello, my name is <span className="name">Rohit.</span>
           </h1>
           <p>
