@@ -1,5 +1,16 @@
 export const ProjectsData = [
   {
+    id: 1,
+    title: "Meesho-Clone",
+    description:
+      "Meesho Clone is a streamlined React-based e-commerce app that offers a seamless shopping experience. With a user-friendly interface and essential features, such as search, navigation, cart management, checkout, and product browsing.",
+    image:
+      "https://drive.google.com/u/0/uc?id=1PN87dGUaN-VInaQGM7jFnAj6b0pI_tfO&export=download",
+    siteUrl: "https://meesho-clone-project.vercel.app/",
+    codeUrl: "https://github.com/Therohitmahar/meesho-Reboot",
+    techStack: ["React", "React-Router", "HTML", "CSS", "JavaScript"],
+  },
+  {
     id: 2,
     title: "Dictionary App",
     description:

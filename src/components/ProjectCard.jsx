@@ -3,17 +3,15 @@ import { HiCode } from "react-icons/hi";
 import { LuLink2 } from "react-icons/lu";
 function ProjectCard({ img, title, description, codeUrl, siteUrl, techStack }) {
   return (
-    <div className="projectcard mx-auto">
-      <div className="left">
-        <img src={img} alt="img" />
-      </div>
+    <div className="projectcard">
+      <img className="left" src={img} alt="img" />
       <div className="right">
         <section className="section">
           <h3 className="Project-title">{title}</h3>
           <a href={codeUrl} target="_blank">
             <HiCode />
           </a>
-          <a href={siteUrl}>
+          <a target="_blank" href={siteUrl}>
             <LuLink2 />
           </a>
         </section>

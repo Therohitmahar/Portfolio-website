@@ -1,12 +1,14 @@
 import React from "react";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 import { ProjectsData } from "../assets/Data";
 
 function Work() {
   return (
     <div
+      className="project-container"
       style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
     >
+      <h2 className="headline">Some Things I've Built</h2>
       {ProjectsData.map((data) => (
         <ProjectCard
           key={data.id}

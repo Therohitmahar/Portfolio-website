@@ -1,33 +1,20 @@
-import React from "react";
-import Lottie from "lottie-react";
-import { FiLinkedin } from "react-icons/fi";
-import { RiGithubLine } from "react-icons/ri";
-import { RxTwitterLogo } from "react-icons/rx";
-import { MdOutlineEmail } from "react-icons/md";
-import animationData from "../assets/codeAnimation.json";
+import React, { useEffect } from "react";
 
 function Hero() {
+  useEffect(() => {}, []);
   return (
     <main className="main">
       <div className="glass" style={{ marginTop: "30px" }}>
-        <div className="animation">
-          <Lottie animationData={animationData} />
-        </div>
         <div className="hero-section">
-          <h1>
-            Hello, my name is <span className="name">Rohit.</span>
+          <p className="hi">Hi, my name is</p>
+          <h1 className="name">
+            <span className="name__span"></span>
           </h1>
+          <h2>I build things for the web.</h2>
           <p>
-            I am a Software Engineer based in Maharashtra, India. Currently I'm
-            working on my personal projects building knowledge of JavaScript and
-            React.
+            I am a Software Engineer based in India. Currently I'm working on my
+            personal projects building knowledge of JavaScript and React.
           </p>
-        </div>
-        <div className="social">
-          <FiLinkedin />
-          <RiGithubLine />
-          <RxTwitterLogo />
-          <MdOutlineEmail />
         </div>
       </div>
     </main>

@@ -12,9 +12,6 @@ function Contact() {
       <button>
         <a href="mailto:therohitmahar@gmail.com">Say Hello</a>
       </button>
-      <a href="https://github.com/Therohitmahar/Portfolio-website">
-        <span>Designed & Built by Rohit Mahar</span>
-      </a>
     </div>
   );
 }
